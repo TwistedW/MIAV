@@ -5,14 +5,10 @@ __all__ = ["proj_root", "arg_config"]
 from collections import OrderedDict
 
 proj_root = os.path.dirname(__file__)
-datasets_root = "E:\Python_code\datasets"
+datasets_root = "dataset"
 
-Data_TR_path = os.path.join(datasets_root, "Eye_AV", "Data_TR/test")
 DRIVE_AV_train = os.path.join(datasets_root, "Eye_AV", "DRIVE_AV/training")
 DRIVE_AV_path = os.path.join(datasets_root, "Eye_AV", "DRIVE_AV/test")
-HRF_AV_path = os.path.join(datasets_root, "Eye_AV", "HRF_AV/test")
-KAILUAN_AV_path = os.path.join(datasets_root, "Eye_AV", "KAILUAN_AV/test")
-LES_AV_path = os.path.join(datasets_root, "Eye_AV", "LES_AV/test")
 
 arg_config = {
     "model": "PCNet_ISE",  # 实际使用的模型，需要在`network/__init__.py`中导入
@@ -30,11 +26,7 @@ arg_config = {
         "tr_data_path": DRIVE_AV_train,
         "te_data_list": OrderedDict(
             {
-                # "Data_TR": Data_TR_path,
                 "DRIVE_AV": DRIVE_AV_path,
-                # "HRF_AV": HRF_AV_path,
-                # "KAILUAN_AV": KAILUAN_AV_path,
-                # "LES_AV": LES_AV_path,
             },
         ),
     },
