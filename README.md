@@ -11,11 +11,5 @@ Password：00di
 
 The labeled data has been normalized. Users can handle it by themselves according to the usage situation.
 
-# Model load file
-
-[PCNet_ISE_S256_BS8_E8000_INFO-chan32-drive](https://pan.baidu.com/s/1b8o4heLvpnWGYh9KUXC3rQ)
-
-Password：2dm3
-
 ## Author
 JingFeiHu	GuangWu	HuaWang
