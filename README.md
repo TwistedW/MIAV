@@ -1,6 +1,9 @@
 # MIAV
 Multi-scale interactive network with artery/vein discriminator for retinal vessel classification 
 
+# Update Results
+For DRIVE-AV， Se, Sp, and Acc are 98.99%, 93.15%, and 97.79%, respectively
+
 # Open source datasets
 
 The 100 fundus images dataset has been released.
